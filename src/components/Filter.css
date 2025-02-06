@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.hal {
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.321);
+}
+
+.parent {
+  margin-top: 150px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border-radius: 10px;
+  padding: 10px 10px;
+  height: 600px;
+}
+
+.filter {
+  width: 400px;
+}

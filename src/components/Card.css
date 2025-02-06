@@ -1,0 +1,87 @@
+.up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-parent {
+  width: 900px;
+}
+
+.up p {
+  color: white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn button {
+  border: 1px solid rgba(255, 255, 255, 0.389);
+  background-color: transparent;
+  padding: 5px 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.down {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.416);
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.down img {
+  width: 100%;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.482);
+  font-size: small;
+  margin-top: 5px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn2 img {
+  width: 30px;
+}
+
+.btn2 button {
+  padding: 5px 60px;
+  border: none;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.down-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

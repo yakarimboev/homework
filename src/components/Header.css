@@ -1,0 +1,50 @@
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right button {
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.423);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.header-left {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.input {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.434);
+}
+
+.header-left a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
